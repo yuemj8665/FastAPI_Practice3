@@ -98,3 +98,33 @@ Once the server is running, you can access the interactive API documentation at:
 -   `GET /users/me/`: Get the details of the currently authenticated user.
 -   `GET /users/{user_id}`: Get details of a specific user by ID.
 -   `DELETE /users/{user_id}`: Delete a specific user by ID.
+
+## Git Command History
+
+The following Git commands were used to set up this project repository:
+
+```bash
+# 1. Initialize a new local Git repository
+git init
+
+# 2. Link the local repository to the remote GitHub repository
+git remote add origin https://github.com/yuemj8665/FastAPI_Practice3.git
+
+# 3. Stage all new and modified files for the first commit
+git add .
+
+# 4. Create the first commit
+git commit -m "Initial commit"
+
+# 5. Push the initial commit to the 'master' branch on GitHub
+git push -u origin master
+
+# 6. Stage the new README.md file
+git add README.md
+
+# 7. Commit the new README file
+git commit -m "docs: Add README.md"
+
+# 8. Push the README commit to GitHub
+git push
+```
